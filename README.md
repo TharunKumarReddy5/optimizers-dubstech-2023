@@ -34,6 +34,18 @@ Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-du
 
 2. **Metric** to rank the COVID burden a hospital is experiencing.
 
+### Calculating total confirmed covid beds occupied over total inpatient beds
+$${inpatient\_confirmed} = \frac{inpatient\_beds\_used\_covid\_7\_day\_avg}{inpatient\_beds\_7\_day\_avg}$$
+
+### Calculating total confirmed covid beds occupied over total ICU beds
+$${icu\_confirmed} = \frac{staffed\_icu\_adult\_patients\_confirmed\_covid\_7\_day\_avg + staffed\_icu\_pediatric\_patients\_confirmed\_covid\_7\_day\_avg}{ total\_icu\_beds\_7\_day\_avg}$$
+
+### Calcualting fully vaccinated staff over total staff
+$${staff_vaccinated} = \frac {total\_personnel\_covid\_vaccinated\_doses\_all\_7\_day}{total\_personnel\_covid\_vaccinated\_doses\_none\_7\_day + total\_personnel\_covid\_vaccinated\_doses\_one\_7\_day + total\_personnel\_covid\_vaccinated\_doses\_all\_7\_day}$$
+
+### Calculating the hospital burden ranking based on initial weights assigned on the basis of domain knowledge
+$$hospital\_burden\_ranking = 40 * inpatient\_confirmed + 50 * icu\_confirmed + 10 * staff\_vaccinated$$
+
 Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#metric-design)**.
 
 3. **Data Analysis + Data Visualization**

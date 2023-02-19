@@ -48,10 +48,6 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
     ![q3](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/q3.jpg?raw=true)
 
     The age groups 40-59 and 60+ seem to be similar to have a similar trend to the overall trend with peaks around Jan 2021, Aug 2021 and Jan 2022 but the age group 0-19 is significantly different from the overall trend and other age groups. As we can see in the image above, the peaks for this age group are around Jan 2022 and July 2022. The age group 20-39 is somewhat closely aligning with the overall trend except the first peak of Jan 2021.
-    
-- **What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time?**
-
-
 
 - **Which hospitals have had a significant increase in total inpatient beds used for COVID cases over time?**
 
@@ -69,6 +65,27 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 
 ## METRIC DESIGN
 Metric to rank the COVID burden a hospital is experiencing:
+### Calculating total confirmed covid beds occupied over total inpatient beds
+$${inpatient\_confirmed} = \frac{inpatient\_beds\_used\_covid\_7\_day\_avg}{inpatient\_beds\_7\_day\_avg}$$
+
+### Calculating total confirmed covid beds occupied over total ICU beds
+$${icu\_confirmed} = \frac{staffed\_icu\_adult\_patients\_confirmed\_covid\_7\_day\_avg + staffed\_icu\_pediatric\_patients\_confirmed\_covid\_7\_day\_avg}{ total\_icu\_beds\_7\_day\_avg}$$
+
+### Calcualting fully vaccinated staff over total staff
+$${staff_vaccinated} = \frac {total\_personnel\_covid\_vaccinated\_doses\_all\_7\_day}{total\_personnel\_covid\_vaccinated\_doses\_none\_7\_day + total\_personnel\_covid\_vaccinated\_doses\_one\_7\_day + total\_personnel\_covid\_vaccinated\_doses\_all\_7\_day}$$
+
+### Calculating the hospital burden ranking based on initial weights assigned on the basis of domain knowledge
+$$hospital\_burden\_ranking = 40 * inpatient\_confirmed + 50 * icu\_confirmed + 10 * staff\_vaccinated$$
+
+This gives us ranking of Hospital Burden based on the initialized weights (that were chosen considering various factors and domain knowledge) 
+
+To update the weights of the equation calculating HBR, we came up with an algortihm (which could not be implemented due to the time constraint)
+
+- Create 10 clusters using these new developed features (inpatient_confirmed, icu_confirmed, staff_vaccinated) using K-means clustering. 
+- These clusters are representative of "unordered" Hospital Burden (Basically, each of this cluster represents one bin of the ranked Hospital burden. Let's say 80-90 ranked could be closely represented by cluster 5, and similarly other bins of ranks could be represented by some other cluster.) 
+- So, we try to map the cluster to these bins and calculate the weights each of these features carry using grid-search in a way that we have 10 clusters closesly represent the 10 bins of HBR. 
+
+Due to the time constraint, we were not able to complete this algo.
 
 Link to [notebook]().
 

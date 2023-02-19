@@ -49,11 +49,19 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 
     The age groups 40-59 and 60+ seem to be similar to have a similar trend to the overall trend with peaks around Jan 2021, Aug 2021 and Jan 2022 but the age group 0-19 is significantly different from the overall trend and other age groups. As we can see in the image above, the peaks for this age group are around Jan 2022 and July 2022. The age group 20-39 is somewhat closely aligning with the overall trend except the first peak of Jan 2021.
     
-- What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time? 
-- Which hospitals have had a significant increase in total inpatient beds used for COVID cases over time? 
-- Which hospitals have had a significant fluctuation in total inpatient beds used for COVID cases over time? 
+- **What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time? **
 
-- Design and build a dashboard that helps a hospital understand how to better manage and prepare their resources (inpatient beds, nurses, docs). 
+
+
+- **Which hospitals have had a significant increase in total inpatient beds used for COVID cases over time?**
+
+    The following image shows the hospitals that had a significant increase in total inpatient beds used for COVID cases over time. The user has the flexibility to choose between a Year-on-Year comparison, Month-on-Month comparsion and Week-on-Week comparison:
+
+- **Which hospitals have had a significant fluctuation in total inpatient beds used for COVID cases over time?**
+
+    The following image shows the hospitals that had a significant fluctuation in total inpatient beds used for COVID cases over time: 
+
+- **Design and build a dashboard that helps a hospital understand how to better manage and prepare their resources (inpatient beds, nurses, docs).** 
 
     Link to dashboard: [Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/AnalysisDashboard?publish=yes).
 

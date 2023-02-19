@@ -41,7 +41,7 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 
 - **Is there a specific month or period of time when the total inpatient beds used for COVID significantly reduced? Was this a trend that held true for each age group?**
     
-    Significant dip is noticed between January - March in 2021 and 2022. This trend helpd true for all age groups.
+    Significant dip is noticed between January - March in 2021 and 2022. This trend holds true for all age groups.
 
 - **What trends do you notice with respect to the total inpatient beds for COVID by specific age groups and time?**
     
@@ -49,7 +49,7 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 
     The age groups 40-59 and 60+ seem to be similar to have a similar trend to the overall trend with peaks around Jan 2021, Aug 2021 and Jan 2022 but the age group 0-19 is significantly different from the overall trend and other age groups. As we can see in the image above, the peaks for this age group are around Jan 2022 and July 2022. The age group 20-39 is somewhat closely aligning with the overall trend except the first peak of Jan 2021.
     
-- **What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time? **
+- **What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time?**
 
 
 
@@ -64,6 +64,8 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 - **Design and build a dashboard that helps a hospital understand how to better manage and prepare their resources (inpatient beds, nurses, docs).** 
 
     Link to dashboard: [Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/AnalysisDashboard?publish=yes).
+    [tableau](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau.jpg?raw=true)
+
 
 ## METRIC DESIGN
 Metric to rank the COVID burden a hospital is experiencing.

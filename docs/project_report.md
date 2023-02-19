@@ -64,7 +64,7 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 - **Design and build a dashboard that helps a hospital understand how to better manage and prepare their resources (inpatient beds, nurses, docs).** 
 
     Link to dashboard: [Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/AnalysisDashboard?publish=yes).
-    [tableau](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau.jpg?raw=true)
+    ![tableau](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau.jpg?raw=true)
 
 
 ## METRIC DESIGN

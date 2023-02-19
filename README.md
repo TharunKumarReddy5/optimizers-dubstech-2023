@@ -22,7 +22,7 @@ Link to the **[Project Report](https://github.com/TharunKumarReddy5/optimizers-d
 
 ## DASHBOARD
 Here is a link to out **[Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/AnalysisDashboard?publish=yes)**.
-[tableau](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau.jpg?raw=true)
+![tableau](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau.jpg?raw=true)
 
 ## TASKS
 

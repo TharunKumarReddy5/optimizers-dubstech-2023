@@ -68,8 +68,9 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 
 
 ## METRIC DESIGN
-Metric to rank the COVID burden a hospital is experiencing.
+Metric to rank the COVID burden a hospital is experiencing:
 
+Link to [notebook]().
 
 ## MODELLING
 Machine Learning Problem to predict the `"inpatient_beds_used_covid_7_day_sum"` values for the next 12 weeks  for a **specific state** selected.
@@ -109,3 +110,4 @@ VAR() function from statsmodels package has a great method - select_order - that
 **Step 6:** VARMAX(4,0) model finalized at state-level:
 Finally, a function was written to encapsulate VARMAX(4,0) training model and was then executed to forecast teh target value for 12 upcoming weeks.
 
+Link to [notebook](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/models/VARMAX%20Model%20Cross%20Validated.ipynb)

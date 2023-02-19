@@ -66,7 +66,7 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 ## METRIC DESIGN
 Metric to rank the COVID burden a hospital is experiencing:
 
-![metric]((https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric.jpg?raw=true)
+![metric](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric.jpg?raw=true)
 
 This gives us ranking of Hospital Burden based on the initialized weights (that were chosen considering various factors and domain knowledge) 
 

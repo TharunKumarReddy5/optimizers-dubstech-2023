@@ -34,7 +34,7 @@ Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-du
 
 2. **Metric** to rank the COVID burden a hospital is experiencing.
 
-![metric]((https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric.jpg?raw=true)
+![metric](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric.jpg?raw=true)
 
 Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#metric-design)**.
 

@@ -21,7 +21,7 @@ Please find the detailed Data Dictionary [here](https://docs.google.com/spreadsh
 Link to the **[Project Report](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/tree/main/docs/project_report.md)**.
 
 ## DASHBOARD
-Here is a link to out **[Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/AnalysisDashboard?publish=yes)**.
+Here is a link to out **[Tableau dashboard](https://public.tableau.com/app/profile/tharun.kumar.reddy5213/viz/OptimizersHospitalBedsDashboard/HospitalCapacityAnalysis)**.
 
 ![tableau1](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/tableau/tableau_dash.jpg?raw=true)
 

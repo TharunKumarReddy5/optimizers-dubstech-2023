@@ -52,10 +52,14 @@ The new updated data file can be found [here](https://github.com/TharunKumarRedd
 - **Which hospitals have had a significant increase in total inpatient beds used for COVID cases over time?**
 
     The following image shows the hospitals that had a significant increase in total inpatient beds used for COVID cases over time. The user has the flexibility to choose between a Year-on-Year comparison, Month-on-Month comparsion and Week-on-Week comparison:
+    ![q4](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/q4.png?raw=true)
+    
 
 - **Which hospitals have had a significant fluctuation in total inpatient beds used for COVID cases over time?**
 
     The following image shows the hospitals that had a significant fluctuation in total inpatient beds used for COVID cases over time: 
+    ![q5](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/q5.png?raw=true)
+    
 
 - **Design and build a dashboard that helps a hospital understand how to better manage and prepare their resources (inpatient beds, nurses, docs).** 
 
@@ -70,13 +74,18 @@ Metric to rank the COVID burden a hospital is experiencing:
 
 This gives us ranking of Hospital Burden based on the initialized weights (that were chosen considering various factors and domain knowledge) 
 
-To update the weights of the equation calculating HBR, we came up with an algortihm (which could not be implemented due to the time constraint)
+To update the weights of the equation calculating HBR, we came up with an algorithm (which could not be implemented due to the time constraint)
 
 - Create 10 clusters using these new developed features (inpatient_confirmed, icu_confirmed, staff_vaccinated) using K-means clustering. 
 - These clusters are representative of "unordered" Hospital Burden (Basically, each of this cluster represents one bin of the ranked Hospital burden. Let's say 80-90 ranked could be closely represented by cluster 5, and similarly other bins of ranks could be represented by some other cluster.) 
-- So, we try to map the cluster to these bins and calculate the weights each of these features carry using grid-search in a way that we have 10 clusters closesly represent the 10 bins of HBR. 
+- So, we try to map the cluster to these bins and calculate the weights each of these features carry using grid-search in a way that we have 10 clusters closely represent the 10 bins of HBR. 
+- These newly updated weights will be used to identify the hospital burden index.
+- Currently, we have randomly assigned initial weights to be 40, 50 and 10 for inpatient_confirmed, icu_confirmed, staff_vaccinated respectively.
 
-Due to the time constraint, we were not able to complete this algo.
+Due to the time constraint, we were not able to complete this algo. 
+
+Index based on Intital weights:
+![metric_op](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric_op.jpg?raw=true)
 
 Link to [notebook]().
 

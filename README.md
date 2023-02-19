@@ -28,13 +28,17 @@ Here is a link to out **[Tableau dashboard](https://public.tableau.com/app/profi
 
 1. **Machine Learning Modelling** to predict the `"inpatient_beds_used_covid_7_day_sum"` values for the next 12 weeks  for a specific state selected.
 
-RMSE across all states is 3342.
+![model](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/model.jpg?raw=true)
+**RMSE across all states is 3342.**
 
 Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#modelling)**.
 
 2. **Metric** to rank the COVID burden a hospital is experiencing.
 
 ![metric](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric.jpg?raw=true)
+
+Hosiptal Burden Index based on Intital weights:
+![metric_op](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/metric_op.jpg?raw=true)
 
 Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#metric-design)**.
 

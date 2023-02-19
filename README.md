@@ -28,11 +28,11 @@ Here is a link to out **[Tableau dashboard](https://public.tableau.com/app/profi
 
 1. **Machine Learning Modelling** to predict the `"inpatient_beds_used_covid_7_day_sum"` values for the next 12 weeks  for a specific state selected
 
-Detailed explanation [here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#modelling).
+Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#modelling)**.
 
 2. **Metric** to rank the COVID burden a hospital is experiencing.
 
-Detailed explanation [here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#metric-design).
+Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#metric-design)**.
 
 3. **Data Analysis + Data Visualization**
 
@@ -41,15 +41,13 @@ Detailed explanation [here](https://github.com/TharunKumarReddy5/optimizers-dubs
     ![q2](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/q2.png?raw=true)
     
     The graph a number of spikes and dips in the graph. The highest peak is around January 2021 and then again at Spetember 2021 and January 2022.
-
-- **Is there a specific month or period of time when the total inpatient beds used for COVID significantly reduced? Was this a trend that held true for each age group?**
-
+- **What trends do you notice with respect to the total inpatient beds for COVID by specific age groups and time?**
+    
     ![q3](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/plots/q3.jpg?raw=true)
-    Significant dip is noticed between January - March in 2021 and 2022.
 
-    As it can be seen from the graph above, this holds true for all age groups.
+    The age groups 40-59 and 60+ seem to be similar to have a similar trend to the overall trend with peaks around January 2021, August 2021 and January 2022 but the age group 0-19 is significantly different from the overall trend and other age groups. As we can see in the image above, the peaks for this age group are around January 2022 and July 2022. The age group 20-39 is somewhat closely aligning with the overall trend except the first peak of January 2021.
 
-Detailed explanation [here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#data-analysis--visualization).
+Detailed explanation **[here](https://github.com/TharunKumarReddy5/optimizers-dubstech-2023/blob/main/docs/project_report.md#data-analysis--visualization)**.
 
 ## CONTRIBUTORS
 

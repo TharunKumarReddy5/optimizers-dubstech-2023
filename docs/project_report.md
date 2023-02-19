@@ -38,7 +38,10 @@ The data file had some issues such as unclean data and missing values. We have p
 
     Significant dip is noticed between January - March in 2021 and 2022.
 
-- What trends do you notice with respect to the total inpatient beds for COVID by specific age groups and time? 
+- **What trends do you notice with respect to the total inpatient beds for COVID by specific age groups and time?**
+    
+    The age groups 40-59 and 60+ seem to be similar to have a similar trend to the overall trend with peaks around Jan 2021, Aug 2021 and Jan 2022 but the age group 0-19 is significantly different from the overall trend and other age groups. As we can see in the image above, the peaks for this age group are around Jan 2022 and July 2022. The age group 20-39 is somewhat closely aligning with the overall trend except the first peak of Jan 2021.
+    
 - What trends do you notice in the vaccination status of healthcare personnel over time for hospitals, cities, states? Did any hospitals, cities, or states get vaccinated more slowly as compared to the general trend over time? 
 - Which hospitals have had a significant increase in total inpatient beds used for COVID cases over time? 
 - Which hospitals have had a significant fluctuation in total inpatient beds used for COVID cases over time? 
